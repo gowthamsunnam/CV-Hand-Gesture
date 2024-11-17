@@ -28,6 +28,7 @@ bt = 8
 brushThickness = 8
 eraserThickness = 50
 ###############################
+# Random comment
 detector = htm.HandDetector(detection_confidence=0.4)
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
