@@ -33,7 +33,7 @@ detector = htm.HandDetector(detection_confidence=0.4)
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
-folder = "CV Hand Gesture\Header"
+folder = "Header"
 fileList = os.listdir(folder)
 imgList = []
 for imgpath in fileList:
